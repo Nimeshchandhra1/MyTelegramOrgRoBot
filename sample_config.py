@@ -11,12 +11,12 @@ class Config(object):
     CHUNK_SIZE = 10280
     # MyTelegram.org
     # configurtion required while creating new application
-    APP_TITLE = os.environ.get("APP_TITLE", "usetgbot")
-    APP_SHORT_NAME = os.environ.get("APP_SHORT_NAME", "usetgbot")
-    APP_URL = os.environ.get("APP_URL", "https://telegram.dog/UseTGxBot")
-    APP_DESCRIPTION = os.environ.get("APP_DESCRIPTION", "created using https://telegram.dog/UseTGxBot")
+    APP_TITLE = os.environ.get("APP_TITLE", "appidhashbot")
+    APP_SHORT_NAME = os.environ.get("APP_SHORT_NAME", "Appidhash")
+    APP_URL = os.environ.get("APP_URL", "https://telegram.dog/Appidhashbot")
+    APP_DESCRIPTION = os.environ.get("APP_DESCRIPTION", "created using https://telegram.dog/Appidhashbot")
     #
-    FOOTER_TEXT = os.environ.get("FTEXT", "❤️ @SpEcHlDe")
+    FOOTER_TEXT = os.environ.get("FTEXT", "❤️ @Trustedfull")
     # the strings used in the different messages
     # in the bot
     START_TEXT = os.environ.get("START_TEXT", Translation.START_TEXT)
